@@ -1,6 +1,6 @@
 {
  "format": 1,
- "generated": "2026-10-08T15:41Z",
+ "generated": "2026-10-08T21:49Z",
  "tags": [
   "analysis",
   "architecture",
@@ -275,13 +275,13 @@
   },
   {
    "id": "archxq_it",
-   "version": "0.9.3",
+   "version": "0.9.5",
    "author": "Orlando Souza · XQ",
    "author_url": "https://github.com/equipexq",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/equipexq/archxq-it-lite",
-   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.9.3/archxq_it_lite-v0.9.3.zip",
-   "sha256": "835211ce1320060c539c641e059acfca4150c209e5117252cc743746e368eacb",
+   "download": "https://github.com/equipexq/archxq-it-lite/releases/download/v0.9.5/archxq_it_lite-v0.9.5.zip",
+   "sha256": "81d3e7ee1c37dc1195a455b180572efc6ffccb2d16ace6529a198da817e03053",
    "ingetrazo": "0.5.7",
    "tags": [
     "architecture",
@@ -364,6 +364,40 @@
    "reviewed": false
   },
   {
+   "id": "cad2ingetrazo",
+   "version": "3.11",
+   "author": "M. Tariq",
+   "author_url": "https://github.com/mtak35",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/mtak35/cad2ingetrazo",
+   "download": "https://raw.githubusercontent.com/mtak35/cad2ingetrazo/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/release/cad2ingetrazo-v3.11.zip",
+   "sha256": "f6ec3f3b3e96c5ee271fdcbed662e7a08237cf7c25417f508c0acb44c3490c14",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "architecture",
+    "bim",
+    "import-export",
+    "structures"
+   ],
+   "screenshot": "cad2ingetrazo.jpg",
+   "name": {
+    "es": "CAD2IngeTrazo · De planos CAD a BIM",
+    "en": "CAD2IngeTrazo · CAD plans to BIM",
+    "pt": "CAD2IngeTrazo · De plantas CAD a BIM"
+   },
+   "summary": {
+    "es": "Convierte plantas de AutoCAD (DWG/DXF) en un modelo BIM editable, nivel por nivel: muros, puertas, ventanas, pilares, losas, núcleos, escaleras, rampas, estacionamiento y excavación.",
+    "en": "Turns AutoCAD floor plans (DWG/DXF) into an editable BIM model, level by level: walls, doors, windows, columns, slabs, lift cores, stairs, ramps, parking and excavation.",
+    "pt": "Converte plantas do AutoCAD (DWG/DXF) em um modelo BIM editável, nível por nível: paredes, portas, janelas, pilares, lajes, núcleos, escadas, rampas, estacionamento e escavação."
+   },
+   "description": {
+    "es": "Lee cada planta por sus capas y apila los pisos a su altura real. Cada elemento es un tipo de componente con nombre (D-01, W-03, C-02…) que se selecciona, edita o reemplaza por un componente de la biblioteca de IngeTrazo. Muros cortina con puertas, barandas, terrazas, balcones, acabados de piso por ambiente, parcela con retiros, muro perimetral y excavaciones con volúmenes. Plantas, alzados, cortes y láminas a PDF, DXF y SketchUp. Manual de usuario (inglés): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
+    "en": "Reads each plan by its layers and stacks the floors at their true heights. Every element is a named component type (D-01, W-03, C-02…) you can select, edit as a whole, or replace with an IngeTrazo library component. Curtain walls with doors, railings, terraces, balconies, floor finishes per room, the plot with setbacks, a boundary wall, and excavations with volumes. Plans, elevations, sections and sheets to PDF, DXF and SketchUp. User manual: https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md",
+    "pt": "Lê cada planta pelas suas camadas e empilha os pisos na altura real. Cada elemento é um tipo de componente com nome (D-01, W-03, C-02…) que se seleciona, edita ou substitui por um componente da biblioteca do IngeTrazo. Fachadas-cortina com portas, guarda-corpos, terraços, varandas, acabamentos de piso por ambiente, lote com recuos, muro de divisa e escavações com volumes. Plantas, elevações, cortes e pranchas em PDF, DXF e SketchUp. Manual do usuário (inglês): https://github.com/mtak35/cad2ingetrazo/blob/976aa7127d0c193c911adc67cd5bfeedf6bbc7ba/docs/MANUAL.md"
+   },
+   "reviewed": false
+  },
+  {
    "id": "quadrify_tool",
    "version": "1.1",
    "author": "Pesi (pesi3d.de)",
@@ -415,6 +449,33 @@
     "es": "Entorno de modelado paramétrico visual por nodos (tipo Grasshopper) para generar geometría 3D procedural, curvas, mallas y análisis.",
     "en": "Visual parametric node programming environment (Grasshopper-style) for procedural 3D modeling, curves, meshes, and analysis.",
     "pt": "Ambiente visual de modelagem paramétrica por nós (estilo Grasshopper) para gerar geometria 3D procedural, curvas e malhas."
+   },
+   "reviewed": false
+  },
+  {
+   "id": "igz_tb_scenes",
+   "version": "1.0.0",
+   "author": "Ezequiel M. Rezende",
+   "author_url": "https://github.com/em-rezende",
+   "license": "GPL-3.0-or-later",
+   "repository": "https://github.com/em-rezende/Ingetrazo-igz-scenes",
+   "download": "https://github.com/em-rezende/Ingetrazo-igz-scenes/releases/download/v1.0.0/igz_tb_scenes.zip",
+   "sha256": "20923ef00c7e55b9a15b8de7ba41c5596f1ad8497f513dd0cbb6adbd4459f901",
+   "ingetrazo": "0.5.7",
+   "tags": [
+    "rendering",
+    "productivity"
+   ],
+   "screenshot": "igz_tb_scenes.png",
+   "name": {
+    "es": "Escenas (gestor de escenas)",
+    "en": "Scenes (scene manager)",
+    "pt": "Cenas (gerenciador de cenas)"
+   },
+   "summary": {
+    "es": "Barra y panel lateral para guardar la cámara como «escenas», reproducirlas como una animación suave y exportarlas a PNG o MP4 (FFmpeg opcional).",
+    "en": "Toolbar and side panel to save the camera as \"scenes\", play them back as a smooth animation and export them to PNG or MP4 (FFmpeg optional).",
+    "pt": "Barra e painel lateral para salvar a câmera como \"cenas\", reproduzi-las como uma animação suave e exportá-las em PNG ou MP4 (FFmpeg opcional)."
    },
    "reviewed": false
   },
@@ -712,13 +773,13 @@
   },
   {
    "id": "opentrace_bim",
-   "version": "0.11.1",
+   "version": "0.12.9",
    "author": "Leandro Lopes",
    "author_url": "https://github.com/lelopes05",
    "license": "GPL-3.0-or-later",
    "repository": "https://github.com/lelopes05/opentrace-bim",
-   "download": "https://github.com/lelopes05/opentrace-bim/releases/download/v0.11.1/OpenTrace_BIM_0.11.1.zip",
-   "sha256": "73cc60fc55ea65d93bd80ae88d65a2d930545ae65e859e19d5076218288caa66",
+   "download": "https://github.com/lelopes05/opentrace-bim/releases/download/v0.12.9/OpenTrace_BIM_0.12.9_UPDATE_LEGACY_0111.zip",
+   "sha256": "237de58608fc1c3da51aff86f28dcc8f4deb2d041e2a603e51ff6377906e2a62",
    "ingetrazo": "0.5.7",
    "tags": [
     "architecture",
